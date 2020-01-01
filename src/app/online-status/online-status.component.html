@@ -1,0 +1,8 @@
+<!-- <p>online-status works!</p> -->
+
+<div *ngIf="onlineStatus === 'online'" class="online">
+    <span>{{onlineStatusMessage}}</span>
+  </div>
+  <div *ngIf="onlineStatus === 'offline'" class="offline">
+      <span>{{onlineStatusMessage}}</span>  
+  </div>
